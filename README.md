@@ -8,6 +8,10 @@ Lakshmi Venkatasubramanian
 
 <p>The goal of this analysis is to gauge the impact of the pandemic on overall household characteristics such as employment status, housing, education disruptions, and dimensions of physical and mental wellness. There is a large amount of emotionally negative stimuli related to the COVID-19 pandemic. How do people prepare themselves in difficult times like this? Analyzing and exploring people's response to pandemic can provide useful insights into people's perspective about COVID and the challenges they face.</p>
 
+<p>As we all know,the impacts of the pandemic and the economic fallout have been widespread, but are particularly prevalent among Black, Latino, Indigenous, and immigrant households. This analysis will  deep dive into some of the impacts of covid by Age group, race and ethinicity. We also try to understand the different groups of people based on various characteristics who have been impacted by COVID. The research questions will follow quantitative analysis and will target specific variables. Below are some references: </p>
+<li><a href='https://www.cbpp.org/research/poverty-and-inequality/tracking-the-covid-19-recessions-effects-on-food-housing-and'>Covid Recession effects</a></li>
+<li><a href='https://www.cdc.gov/nchs/covid19/pulse/mental-health.htm'>Covid data from NCHS</a></li>
+
 
 ## Repository structure
 ```
@@ -28,10 +32,6 @@ Lakshmi Venkatasubramanian
 <h4>Download data</h4>
 <p>Data is directly downloaded from census website using zipfile package<p>
   
-<h3>Background/Related Work</h3>
-<p>As we all know,the impacts of the pandemic and the economic fallout have been widespread, but are particularly prevalent among Black, Latino, Indigenous, and immigrant households. This analysis will  deep dive into some of the impacts of covid by Age group, race and ethinicity. We also try to understand the different groups of people based on various characteristics who have been impacted by COVID. The research questions will follow quantitative analysis and will target specific variables. Below are some references: </p>
-<li><a href='https://www.cbpp.org/research/poverty-and-inequality/tracking-the-covid-19-recessions-effects-on-food-housing-and'>Covid Recession effects</a></li>
-<li><a href='https://www.cdc.gov/nchs/covid19/pulse/mental-health.htm'>Covid data from NCHS</a></li>
 
 <h4>Terms of use of census data </h4>
 <p>The Census Bureau is committed to open government by sharing its public data as open data. Census data continues to be a key national resource, serving as a fuel for entrepreneurship and innovation, scientific discovery, and commercial activity.  We continuously identify and publish datasets and Application Programming Interface’s (API’s) to Data.gov in accordance with the Office of Management and Budget (OMB) Memorandum M-10-06, the Executive Order 13642 on open data, and the overall principles outlined in the Digital Government Strategy.  In
