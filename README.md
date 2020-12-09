@@ -4,7 +4,7 @@
 Lakshmi Venkatasubramanian 
 12/9/2020
 
-<h3> Abstract </h3> 
+<h3> Motivation </h3> 
 
 <p>The goal of this analysis is to gauge the impact of the pandemic on overall household characteristics such as employment status, housing, education disruptions, and dimensions of physical and mental wellness. There is a large amount of emotionally negative stimuli related to the COVID-19 pandemic. How do people prepare themselves in difficult times like this? Analyzing and exploring people's response to pandemic can provide useful insights into people's perspective about COVID and the challenges they face.</p>
 
@@ -50,7 +50,7 @@ Lakshmi Venkatasubramanian
 <p>For all the research questions, multivariate analysis will be used.</p>
 <p><strong>Statistical Analysis Method</strong>
 <ul><li>Regression analysis will be used to train and determine the impactful predictors. This method is appropriate as all the data points are independent and the sample size is large enough to meet the normality assumption. As the dataset has both numerical and categorical data, regression techniques are suitable. The model is also interpretable.</li>
-<li>Clustering will be used to identify any patterns and classify groups of people based on similar characteristics</li></ul></p>
+<li>k-means clustering will be used to identify any patterns and classify groups of people based on similar characteristics</li></ul></p>
 <p><strong>Results</strong>
     <li>The results will be presented in a comprehensive compilation of visualizations.</li>
 </p>
