@@ -23,14 +23,13 @@ Lakshmi Venkatasubramanian
 
 <h4> Links to Data set and Data dictionary</h4>
 <ul><li>The datasets are available for public use under <a href='https://www.census.gov/programs-surveys/household-pulse-survey/datasets.html'>census.gov</a> website as weekly files.</li>
-<li>Data dictionary is available in the census.gov website under the link <a href='https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.html#phase1'>Phase 1 Household Pulse Survey Technical Documentation</a></li>
+<li>Data dictionary is available in the census.gov website under the link <a href='https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.html#phase1'>Phase 1 Household Pulse Survey Technical Documentation</a></li></ul>
 
-  
 <h4>Download data</h4>
 <p>Data is directly downloaded from census website using zipfile package<p>
   
 <h3>Background/Related Work</h3>
-<p>As we all know,the impacts of the pandemic and the economic fallout have been widespread, but are particularly prevalent among Black, Latino, Indigenous, and immigrant households. This analysis will  deep dive into some of the impacts of covid by Age group, race and ethinicity. We also try to understand the different impacts by clustering groups of people based on similar characteristics The research questions will follow quantitative analysis and will target specific variables. Below are some references: </p>
+<p>As we all know,the impacts of the pandemic and the economic fallout have been widespread, but are particularly prevalent among Black, Latino, Indigenous, and immigrant households. This analysis will  deep dive into some of the impacts of covid by Age group, race and ethinicity. We also try to understand the different groups of people based on various characteristics who have been impacted by COVID. The research questions will follow quantitative analysis and will target specific variables. Below are some references: </p>
 <li><a href='https://www.cbpp.org/research/poverty-and-inequality/tracking-the-covid-19-recessions-effects-on-food-housing-and'>Covid Recession effects</a></li>
 <li><a href='https://www.cdc.gov/nchs/covid19/pulse/mental-health.htm'>Covid data from NCHS</a></li>
 
@@ -41,8 +40,8 @@ Lakshmi Venkatasubramanian
 <h3>Research Questions</h3>
 <ul>
     <li>Understand the impacts of COVID in terms of employment loss, income loss, food insufficiency, education interruptions, inability to meet housing expenses and how does this vary by Race/Ethnicity or gender? Are minority groups and women affected the most?</li>
-    <li>What is the impact on Mental health status (Anxiety and depression)? Is there a correlation between Mental health status (Anxiety and depression) and factors such as age, number of household members, gender, income, health status, race? How does the anxiety levels vary between first and last week of survey?</li>
-    <li>How does employment loss, income loss, food insufficiency, education interruptions, inability to meet housing expenses in Washington differ as compared  to national average?</li>
+    <li>What is the impact on physical and mental wellness? Is there a correlation between Anxiety and depression and factors such as age, number of household members, income, health status, race, gender? How does the anxiety levels vary between first and last week of survey?</li>
+    <li>How does employment loss, income loss, food insufficiency, education interruptions, inability to meet housing expenses in Washington differ as compared to other states?</li>
     <li>How do different groups based on age, race and ethnicity differ in their behavior or attitude towards COVID. Are there any patterns observed in the population based on certain characteristics pertaining to COVID?</li> 
 </ul>
 
