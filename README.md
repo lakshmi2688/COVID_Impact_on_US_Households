@@ -34,7 +34,7 @@ Lakshmi Venkatasubramanian
 |README.md | This readme |
 |assets/pictures/ | Directory containing the various images displayed in the analysis notebook |
 |clean_data/clean_data.csv | CSV file containing a cleaned version of our dataset |
-|raw_data/sample_input.csv |	Sample input obtained by parsing csv.zip from the census url that can be used as the input to data_cleaning.ipynb|
+|raw_data/sample_input.csv | Sample input obtained by parsing weekly survey data as csv.zip from the census url that can be used as the input to data_cleaning.ipynb|
 |src/analysis.ipynb | Contains the report and analysis code / visualizations |
 |src/data_cleaning.ipynb| Contains the logic to clean raw.csv produces|
 
