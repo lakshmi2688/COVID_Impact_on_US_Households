@@ -98,9 +98,11 @@ Lakshmi Venkatasubramanian
 | EMPLOSSCOVID | Employment loss due to covid. Takes on values in {0,1} | numeric |
 | FOOD_INSUFF | Food insufficiency due to covid. Takes on values in {0,1} | numeric |
 | RENT_DEBT | Inability to pay the rent due to covid. Takes on values in {0,1} | numeric |
+| RENT_DEBT | Inability to pay the rent due to covid. Takes on values in {0,1} | numeric |
 | INCOMELOSS| Income loss due to covid. Takes on values in {0,1} | numeric |
-| AGE_GROUP | Age group of the respondent. Takes on values in {'NONE','MODERATE','VERY HIGH'} | string |
-| EDUC | Worry level of the respondent. Takes on values in {'NONE','MODERATE','VERY HIGH'} | string |
+| AGE_GROUP | Age group of the respondent. Takes on values in {'18 - 24','25 - 39','40 - 54','55 - 64','65 and above'} | string |
+| EDUC | Worry level of the respondent. Takes on values in {'Less than a high school diploma','High school diploma or GED','Some college/associate's degree','Bachelor's degree or higher'} | string |
+| INCOME_LEV | Income level of the respondent. Takes on values in {'Less than $25,000','$25,000 - $74,999','$75,000 - $149,999','$150,000 and above'} | string |
 
 
 <h3>Source of Bias</h3>
