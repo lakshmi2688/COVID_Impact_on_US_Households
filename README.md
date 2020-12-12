@@ -79,7 +79,29 @@ Lakshmi Venkatasubramanian
 <li>Install Anaconda</li>
 <li>Using a terminal or cmd, navigate to the src folder.</li>
 <li>Launch jupyter by running: jupyter notebook</li>
-<li>Select the notebook of interest. (Start at cleaning_data.ipynb for the full process or Analysis_of_COVID_impact.ipynb for the final report.)</li>
+<li>Select the notebook of interest. (Start at data_cleaning.ipynb for the full process or Analysis.ipynb for the final report.)</li>
+
+<h3>Schema of the files created</h3>
+<ul>There is one CSV file extracted and compiled as part of this analysis.</ul>
+<li>clean_data/clean_data.csv</li>
+
+| Columns        | Description    | Data type |
+| :------------- | :----------  | :----------  |
+| WEEK | Wee k of the survey | numeric |
+| EGENDER   | The gender of the respondent. Takes a value in {'MALE', 'FEMALE'}. | string| 
+| THHLD_NUMPER | The number of members in the household. Takes a value between 1 and 10 |  numeric |
+| HLTHSTATUS  | Overall health status of the respondent. Takes on values in {'POOR', 'FAIR', 'EXCELLENT'| string |
+| WORRY | Worry level of the respondent. Takes on values in {'NONE','MODERATE','VERY HIGH'} | string |
+| INTEREST | Interest level of the respondent. Takes on values in {'NONE','MODERATE','VERY HIGH'} | string |
+| RACE_ETHNICITY | Race or Ethnicity of the respondent. Takes on values in {'Hispanic','White alone','Black alone','Asian alone','Other races'} | string |
+| EMP_STATUS | Employment status of the respondent. Takes on values in {0,1} | numeric |
+| EMPLOSSCOVID | Employment loss due to covid. Takes on values in {0,1} | numeric |
+| FOOD_INSUFF | Food insufficiency due to covid. Takes on values in {0,1} | numeric |
+| RENT_DEBT | Inability to pay the rent due to covid. Takes on values in {0,1} | numeric |
+| INCOMELOSS| Income loss due to covid. Takes on values in {0,1} | numeric |
+| AGE_GROUP | Age group of the respondent. Takes on values in {'NONE','MODERATE','VERY HIGH'} | string |
+| EDUC | Worry level of the respondent. Takes on values in {'NONE','MODERATE','VERY HIGH'} | string |
+
 
 <h3>Source of Bias</h3>
 <p> Nonsampling errors can also occur and are more likely for surveys that are implemented quickly, achieve low response rates, and rely on online response.  Nonsampling errors for the Household Pulse Survey may include:</p>
