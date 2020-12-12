@@ -17,7 +17,15 @@ Lakshmi Venkatasubramanian
 ```
 ├── README.md
 ├── LICENSE
-├── Analysis of COVID impact on US households.ipynb
+├── assets
+│   └── pictures
+├── clean_data
+│   ├── covid_clean_data.csv
+├── raw_data
+│   └── raw.csv
+└── src
+    ├── Analysis of COVID impact on US households.ipynb
+    ├── COVID_impact_cleaning_data.ipynb
 ```
 
 <h3>Data Source</h3>
