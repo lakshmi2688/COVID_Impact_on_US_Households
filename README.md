@@ -24,7 +24,7 @@ Lakshmi Venkatasubramanian
 ├── raw_data
 │   └── raw.csv
 └── src
-    ├── Analysis of COVID impact on US households.ipynb
+    ├── Analysis_of_COVID_impact_on_US_households.ipynb
     ├── COVID_impact_cleaning_data.ipynb
 ```
 
@@ -62,6 +62,14 @@ Lakshmi Venkatasubramanian
 <p><strong>Results</strong>
     <li>The results will be presented in a comprehensive compilation of visualizations.</li>
 </p>
+
+
+<h3>How to run the notebook</h3>
+
+<li>Install Anaconda</li>
+<li>Using a terminal or cmd, navigate to the src folder.</li>
+<li>Launch jupyter by running: jupyter notebook</li>
+<li>Select the notebook of interest. (Start at cleaning_data.ipynb for the full process or Analysis_of_COVID_impact.ipynb for the final report.)</li>
 
 <h3>Source of Bias</h3>
 <p> Nonsampling errors can also occur and are more likely for surveys that are implemented quickly, achieve low response rates, and rely on online response.  Nonsampling errors for the Household Pulse Survey may include:</p>
