@@ -58,6 +58,10 @@ Lakshmi Venkatasubramanian
 <h3>Research Questions</h3>
 <ul>
     <li>Understand the impacts of COVID in terms of employment loss, income loss, food insufficiency, education interruptions, inability to meet housing expenses and how does this vary by Race/Ethnicity or gender? Are minority groups and women affected the most?</li>
+    
+![CovidImpactByGender](/assets/pictures/CovidImpactByGender.jpg)
+![CovidImpactByRaceEthnicity](/assets/pictures/CovidImpactByRaceEthnicity.jpg)
+
     <li>What is the impact on physical and mental wellness? Is there a correlation between Anxiety and depression and factors such as age, number of household members, income, health status, race, gender? How does the anxiety levels vary between first and last week of survey?</li>
     <li>How does employment loss, income loss, food insufficiency, education interruptions, inability to meet housing expenses in Washington differ as compared to other states?</li>
     <li>How do different groups based on age, race and ethnicity differ in their behavior or attitude towards COVID. Are there any patterns observed in the population based on certain characteristics pertaining to COVID?</li> 
