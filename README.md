@@ -69,13 +69,19 @@
 <h3>Methodology</h3>
 <ul><li>For <strong>question 1</strong>, Logistic regression has been used as the response indicator variables are binary in nature, all the data points are independent and the sample size is large enough. Also, chi's square test of independence has been used to compare 2 categorical varaibles which is the case here. Overall likelihood ratio test has been used to verify if the full model that includes gender, race/ethnicity tell us more about the outcome (or response) variable than a model that does not include these 2 variables. </li>
 
-<p align="right" width="100%">
-    <img width="25%" src="/assets/pictures/CovidImpactByGender.jpg"> 
-    <img width="25%" src="/assets/pictures/CovidImpactByRaceEthnicity.jpg"> 
+<p align="left" width="100%">
+    <img width="50%" src="/assets/pictures/CovidImpactByGender.jpg"> 
+    <img width="50%" src="/assets/pictures/CovidImpactByRaceEthnicity.jpg"> 
 </p>
     
 <p></p>
 <li>For <strong>question 2</strong> , ordinal logistic regression has been used because the response variable is categorical and ordered in nature, all the data points are independent and the sample size is large enough. Also, chi's square test of independence has been used to compare 2 categorical variables which is the case here.  We also used Random features feature importance to identify the top 10 features impacting Anxiety/depression.  Overall likelihood ratio test has been used to verify if the full model that includes the predictors in question namely gender, worry, interest, income loss, food insufficiency, Age group, number of household members, income level, health status, race/ethnicity tell us more about Anxiety/depression than a model that does not include these variables. </li>
+
+<p align="left" width="100%">
+    <img width="50%" src="/assets/pictures/AnxietyByRaceAndGender.jpg"> 
+    <img width="50%" src="/assets/pictures/AnxietyByAgeAndIncome.jpg"> 
+</p>
+
 <p></p>
 <li>For <strong>question 3</strong>, Logistic regression has been used as the response indicator variables are binary in nature, all the data points are independent and the sample size is large enough. Also, chi's square test of independence has been used to compare 2 categorical variables which is the case here. Overall likelihood ratio test has been used to verify if the full model that includes state tell us more about the outcome (or response) variable than a model that does not include this variable</li>
 <p></p>
