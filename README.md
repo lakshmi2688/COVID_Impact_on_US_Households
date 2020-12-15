@@ -4,7 +4,11 @@
 <p>Lakshmi Venkatasubramanian </p>
 <p>12/14/2020</p>
 
-<h3> Abstract </h3> 
+<h3>Table of Contents</h3>
+1. [abstract] (#abstract)
+1. [repository] (#repo)
+
+<h3 span='abstract'> Abstract </h3> 
 
 <p>The goal of this analysis is to gauge the impact of the pandemic on overall household characteristics such as employment status, housing, education disruptions, and dimensions of physical and mental wellness. There is a large amount of emotionally negative stimuli related to the COVID-19 pandemic. How do people prepare themselves in difficult times like this? Analyzing and exploring people's response to pandemic can provide useful insights into people's perspective about COVID and the challenges they face.</p>
 
@@ -13,7 +17,8 @@
 <li><a href='https://www.cdc.gov/nchs/covid19/pulse/mental-health.htm'>Covid data from NCHS</a></li>
 
 
-## Repository structure
+<h3 span='repo'> Repository structure </h3>
+
 ```
 ├── README.md
 ├── LICENSE
@@ -95,7 +100,7 @@
 <li>For <strong>question 4</strong>, Principal component Analysis and K-means clustering have been used to identify any patterns and classify groups of people based on similar characteristics</li>
 
 <p align="left" width="100%">
-    <img width="60%" src="/assets/pictures/PCA.jpg"> 
+    <img width="40%" src="/assets/pictures/PCA.jpg"> 
 </p>
 
 <p></p>
