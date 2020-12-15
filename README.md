@@ -1,8 +1,8 @@
 
 <h1>Analysis of COVID impact on US households</h1>
 
-Lakshmi Venkatasubramanian 
-12/9/2020
+<p>Lakshmi Venkatasubramanian </p>
+<p>12/14/2020</p>
 
 <h3> Motivation </h3> 
 
@@ -20,9 +20,11 @@ Lakshmi Venkatasubramanian
 ├── assets
 │   └── pictures
 ├── clean_data
-│   ├── clean_data.csv
-├── raw_data
-│   └── raw.csv
+│   ├── covid_clean_data.csv
+├── data_dictionary
+│   ├── pulse2020_data_dictionary.xlsx
+├── sample_raw_data
+│   └── pulse2020_raw_data.csv
 └── src
     ├── analysis.ipynb
     ├── data_cleaning.ipynb
