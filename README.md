@@ -4,12 +4,7 @@
 <p>Lakshmi Venkatasubramanian </p>
 <p>12/14/2020</p>
 
-<h3>Table of Contents</h3>
-1. [Abstract] (#abstract)
-1. [Repository structure] (#repo)
-
-<h3 span='abstract'>Abstract</h3> 
-
+<h3>Abstract</h3> 
 <p>The goal of this analysis is to gauge the impact of the pandemic on overall household characteristics such as employment status, housing, education disruptions, and dimensions of physical and mental wellness. There is a large amount of emotionally negative stimuli related to the COVID-19 pandemic. How do people prepare themselves in difficult times like this? Analyzing and exploring people's response to pandemic can provide useful insights into people's perspective about COVID and the challenges they face.</p>
 
 <p>As we all know,the impacts of the pandemic and the economic fallout have been widespread, but are particularly prevalent among Black, Latino, Indigenous, and immigrant households. There is also an impact on gender. This analysis will  deep dive into some of the impacts of covid by Age group, race and ethinicity and gender. We also try to compare the impacts in Washington state versus all other states in terms of certain indocators and understand the different groups of people based on various characteristics pertaining to COVID. The research questions will target specific variables. Below are some references: </p>
@@ -17,7 +12,7 @@
 <li><a href='https://www.cdc.gov/nchs/covid19/pulse/mental-health.htm'>Covid data from NCHS</a></li>
 
 
-<h3 span='repo'>Repository structure</h3>
+<h3>Repository structure</h3>
 
 ```
 ├── README.md
