@@ -89,11 +89,16 @@
 <li>For <strong>question 3</strong>, Logistic regression has been used as the response indicator variables are binary in nature, all the data points are independent and the sample size is large enough. Also, chi's square test of independence has been used to compare 2 categorical variables which is the case here. Overall likelihood ratio test has been used to verify if the full model that includes state tell us more about the outcome (or response) variable than a model that does not include this variable</li>
 
 <p align="left" width="100%">
-    <img width="50%" src="/assets/pictures/CovidImpactByState.jpg"> 
+    <img width="40%" src="/assets/pictures/CovidImpactByState.jpg"> 
 </p>
 
 <p></p>
 <li>For <strong>question 4</strong>, Principal component Analysis and K-means clustering have been used to identify any patterns and classify groups of people based on similar characteristics</li>
+
+<p align="left" width="100%">
+    <img width="60%" src="/assets/pictures/PCA.jpg"> 
+</p>
+
 <p></p>
 <li><strong>Results: </strong>The results will be presented as intepretation of coefficients, significance of hypothesis tests and comprehensive compilation of visualizations.</li></ul>
 
