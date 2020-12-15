@@ -86,8 +86,7 @@
 <li>Select the notebook of interest. (Start at data_cleaning.ipynb for the full process or Analysis.ipynb for the final report.)</li>
 
 <h3>Schema of the files created</h3>
-<ul>There is one CSV file extracted and compiled as part of this analysis.</ul>
-<li>clean_data/clean_data.csv</li>
+<p>There is one CSV file extracted and compiled as part of this analysis which is clean_data/covid_clean_data.csv. Below is its schema</p>
 
 | Columns        | Description    | Data type |
 | :------------- | :----------  | :----------  |
