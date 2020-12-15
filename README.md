@@ -80,8 +80,8 @@
 
 <p align="left" width="100%">
     <img width="60%" src="/assets/pictures/AnxietyByRaceAndGender.jpg"> 
-    <img width="40%" src="/assets/pictures/SelectedMentalIndicators.jpg">
     <img width="60%" src="/assets/pictures/AnxietyByAgeAndIncome.jpg"> 
+    <img width="40%" src="/assets/pictures/SelectedMentalIndicators.jpg">
     <img width="40%" src="/assets/pictures/FeaturesImpactingAnxiety.jpg"> 
 </p>
 
