@@ -75,7 +75,7 @@
     <p></p>
 <li>For <strong>question 4</strong>, Principal component Analysis and K-means clustering have been used to identify any patterns and classify groups of people based on similar characteristics</li>
     <p></p>
-<li><strong>Results</strong>
+<li><strong>Results: </strong>
     The results will be presented as intepretation of coefficients, significance of hypothesis tests and comprehensive compilation of visualizations.</li></ul>
 
 <h3>How to run the notebook</h3>
