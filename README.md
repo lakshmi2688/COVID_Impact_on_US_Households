@@ -36,6 +36,7 @@
 |README.md | This readme |
 |assets/pictures/ | Directory containing the various images displayed in the analysis notebook |
 |clean_data/covid_clean_data.csv | CSV file containing a cleaned version of covid dataset. This has the data of all the 12 weekly files |
+|data_dictionary/pulse2020_data_dictionary.xlsx | Data dictionary for all 12 weeks of raw data downloaded from the url |
 |sample_raw_data/pulse2020_raw_data.csv | Sample data obtained by parsing week 1 survey data from the census url that can be used as the input to data_cleaning.ipynb|
 |src/analysis.ipynb | Contains the report and analysis code/visualizations |
 |src/data_cleaning.ipynb| Contains the logic to clean all the 12 weeks of data downloaded directly from the url|
@@ -50,9 +51,8 @@
 <li>Data dictionary is available in the census.gov website under the link <a href='https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.html#phase1'>Phase 1 Household Pulse Survey Technical Documentation</a></li></ul>
 
 <h4>Download data</h4>
-<p>Data is directly downloaded from census website using zipfile package<p>
+<p>Data is directly downloaded from census website using python modules. Refer to the data_cleaning.ipynb for detailed downloading steps<p>
   
-
 <h4>Terms of use of census data </h4>
 <p>The Census Bureau is committed to open government by sharing its public data as open data. Census data continues to be a key national resource, serving as a fuel for entrepreneurship and innovation, scientific discovery, and commercial activity.  We continuously identify and publish datasets and Application Programming Interface’s (API’s) to Data.gov in accordance with the Office of Management and Budget (OMB) Memorandum M-10-06, the Executive Order 13642 on open data, and the overall principles outlined in the Digital Government Strategy.  In
  accordance with the Open Data Policy, M-13-13, the Census Bureau publishes its information in machine-readable formats while also safeguarding privacy and security.</p>
