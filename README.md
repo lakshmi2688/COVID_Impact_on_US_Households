@@ -11,6 +11,21 @@
 <li><a href='https://www.cbpp.org/research/poverty-and-inequality/tracking-the-covid-19-recessions-effects-on-food-housing-and'>Covid Recession effects</a></li>
 <li><a href='https://www.cdc.gov/nchs/covid19/pulse/mental-health.htm'>Covid data from NCHS</a></li>
 
+<h3>Data Source</h3>
+<p>The <a href='https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2020_HPS_Background.pdf'>Household Pulse Survey</a> provides timely data to help understand the experiences of American households during the coronavirus pandemic. Data for this research comes from the Phase 1 Household Pulse Survey that began on April 23 and ended on July 21, 2020 spanning 12 weeks. The dataset is very rich and informative. It dataset has 105 variables, 1088314 observations and includes employment status, food security, housing, physical and mental health, access to health care, and educational disruption. In order to support the nation’s recovery, we need to know the ways this pandemic has affected people’s lives and livelihoods. Data from these datasets will show the widespread effects of the coronavirus pandemic on individuals, families, and communities across the country. </p>
+
+<p>The survey was conducted by an internet questionnaire, with invitations to participate sent by email and text message. Housing units linked to one or more email addresses or cell phone numbers were randomly selected to participate, and one respondent from each housing unit was selected to respond.</p>
+
+<h4> Links to Data set and Data dictionary</h4>
+<ul><li>The datasets are available for public use under <a href='https://www.census.gov/programs-surveys/household-pulse-survey/datasets.html'>census.gov</a> website as weekly files.</li>
+<li>Data dictionary is available in the census.gov website under the link <a href='https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.html#phase1'>Phase 1 Household Pulse Survey Technical Documentation</a></li></ul>
+
+<h4>Download data</h4>
+<p>Data is directly downloaded from census website using python modules. Refer to the data_cleaning.ipynb for detailed downloading steps<p>
+  
+<h4>Terms of use of census data </h4>
+<p>The Census Bureau is committed to open government by sharing its public data as open data. Census data continues to be a key national resource, serving as a fuel for entrepreneurship and innovation, scientific discovery, and commercial activity.  We continuously identify and publish datasets and Application Programming Interface’s (API’s) to Data.gov in accordance with the Office of Management and Budget (OMB) Memorandum M-10-06, the Executive Order 13642 on open data, and the overall principles outlined in the Digital Government Strategy.  In
+ accordance with the Open Data Policy, M-13-13, the Census Bureau publishes its information in machine-readable formats while also safeguarding privacy and security.</p>
 
 <h3>Repository structure</h3>
 
@@ -40,22 +55,6 @@
 |sample_raw_data/pulse2020_raw_data.csv | Sample data obtained by parsing week 1 survey data from the census url that can be used as the input to data_cleaning.ipynb|
 |src/analysis.ipynb | Contains the report and analysis code/visualizations |
 |src/data_cleaning.ipynb| Contains the logic to clean all the 12 weeks of data downloaded directly from the url|
-
-<h3>Data Source</h3>
-<p>The <a href='https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2020_HPS_Background.pdf'>Household Pulse Survey</a> provides timely data to help understand the experiences of American households during the coronavirus pandemic. Data for this research comes from the Phase 1 Household Pulse Survey that began on April 23 and ended on July 21, 2020 spanning 12 weeks. The dataset is very rich and informative. It dataset has 105 variables, 1088314 observations and includes employment status, food security, housing, physical and mental health, access to health care, and educational disruption. In order to support the nation’s recovery, we need to know the ways this pandemic has affected people’s lives and livelihoods. Data from these datasets will show the widespread effects of the coronavirus pandemic on individuals, families, and communities across the country. </p>
-
-<p>The survey was conducted by an internet questionnaire, with invitations to participate sent by email and text message. Housing units linked to one or more email addresses or cell phone numbers were randomly selected to participate, and one respondent from each housing unit was selected to respond.</p>
-
-<h4> Links to Data set and Data dictionary</h4>
-<ul><li>The datasets are available for public use under <a href='https://www.census.gov/programs-surveys/household-pulse-survey/datasets.html'>census.gov</a> website as weekly files.</li>
-<li>Data dictionary is available in the census.gov website under the link <a href='https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.html#phase1'>Phase 1 Household Pulse Survey Technical Documentation</a></li></ul>
-
-<h4>Download data</h4>
-<p>Data is directly downloaded from census website using python modules. Refer to the data_cleaning.ipynb for detailed downloading steps<p>
-  
-<h4>Terms of use of census data </h4>
-<p>The Census Bureau is committed to open government by sharing its public data as open data. Census data continues to be a key national resource, serving as a fuel for entrepreneurship and innovation, scientific discovery, and commercial activity.  We continuously identify and publish datasets and Application Programming Interface’s (API’s) to Data.gov in accordance with the Office of Management and Budget (OMB) Memorandum M-10-06, the Executive Order 13642 on open data, and the overall principles outlined in the Digital Government Strategy.  In
- accordance with the Open Data Policy, M-13-13, the Census Bureau publishes its information in machine-readable formats while also safeguarding privacy and security.</p>
 
 <h3>Research Questions</h3>
 <ul>
