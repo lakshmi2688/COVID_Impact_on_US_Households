@@ -35,10 +35,10 @@
 |LICENSE | Code license |
 |README.md | This readme |
 |assets/pictures/ | Directory containing the various images displayed in the analysis notebook |
-|clean_data/clean_data.csv | CSV file containing a cleaned version of our dataset |
-|raw_data/sample_input.csv | Sample input obtained by parsing weekly survey data as csv.zip from the census url that can be used as the input to data_cleaning.ipynb|
-|src/analysis.ipynb | Contains the report and analysis code / visualizations |
-|src/data_cleaning.ipynb| Contains the logic to clean raw.csv produces|
+|clean_data/covid_clean_data.csv | CSV file containing a cleaned version of covid dataset. This has the data of all the 12 weekly files |
+|sample_raw_data/pulse2020_raw_data.csv | Sample data obtained by parsing week 1 survey data from the census url that can be used as the input to data_cleaning.ipynb|
+|src/analysis.ipynb | Contains the report and analysis code/visualizations |
+|src/data_cleaning.ipynb| Contains the logic to clean all the 12 weeks of data downloaded directly from the url|
 
 <h3>Data Source</h3>
 <p>The <a href='https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2020_HPS_Background.pdf'>Household Pulse Survey</a> provides timely data to help understand the experiences of American households during the coronavirus pandemic. Data for this research comes from the Phase 1 Household Pulse Survey that began on April 23 and ended on July 21, 2020. The dataset is very rich and informative. It dataset has 105 variables, 1088314 observations and includes employment status, food security, housing, physical and mental health, access to health care, and educational disruption. In order to support the nation’s recovery, we need to know the ways this pandemic has affected people’s lives and livelihoods. Data from these datasets will show the widespread effects of the coronavirus pandemic on individuals, families, and communities across the country. </p>
