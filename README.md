@@ -18,7 +18,7 @@
 
 <h4> Links to Data set and Data dictionary</h4>
 <ul><li>The datasets are available for public use under <a href='https://www.census.gov/programs-surveys/household-pulse-survey/datasets.html'>census.gov</a> website as weekly files.</li>
-<li>Data dictionary is available in the census.gov website under the link <a href='https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.html#phase1'>Phase 1 Household Pulse Survey Technical Documentation</a></li></ul>
+<li>Data dictionary is available in the census.gov website under the link <a href='https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.html#phase1'>Phase 1 Household Pulse Survey Technical Documentation.</a> It has also been linked in the repository. Please refer to repositury structure for pulse2020_data_dictionary.xlsx</li></ul>
 
 <h4>Download data</h4>
 <p>Data is directly downloaded from census website using python modules. Refer to the data_cleaning.ipynb for detailed downloading steps<p>
@@ -50,10 +50,10 @@
 |LICENSE | Code license |
 |README.md | This readme |
 |assets/pictures/ | Directory containing the various images displayed in the analysis notebook |
-|clean_data/covid_clean_data.csv | CSV file containing a cleaned version of covid dataset. This has the data of all the 12 weekly files |
+|clean_data/covid_clean_data.csv | CSV file containing a cleaned version of covid dataset. This has the data of all the 12 weekly files cleaned up. This file is used as input to analysis.ipynb file |
 |data_dictionary/pulse2020_data_dictionary.xlsx | Data dictionary for all 12 weeks of raw data downloaded from the url |
 |sample_raw_data/pulse2020_raw_data.csv | Sample data obtained by parsing week 1 survey data from the census url that can be used as the input to data_cleaning.ipynb|
-|src/analysis.ipynb | Contains the report and analysis code/visualizations |
+|src/analysis.ipynb | Contains the report and analysis code/visualizations and takes the input covid_clean_data.csv which is the output of data_cleaning.ipynb |
 |src/data_cleaning.ipynb| Contains the logic to clean all the 12 weeks of data downloaded directly from the url|
 
 <h3>Research Questions</h3>
@@ -105,7 +105,7 @@
 <li>Install Anaconda</li>
 <li>Using a terminal or cmd, navigate to the src folder.</li>
 <li>Launch jupyter by running: jupyter notebook</li>
-<li>Select the notebook of interest. (Start at data_cleaning.ipynb for the full process or Analysis.ipynb for the final report.)</li>
+<li>Select the notebook of interest. (Start at data_cleaning.ipynb for the full process or analysis.ipynb for the final report.)</li>
 
 <h3>Schema of the files created</h3>
 <p>There is one CSV file extracted and compiled as part of this analysis which is clean_data/covid_clean_data.csv. Below is its schema</p>
